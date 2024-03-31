@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#head-txt {
+  display: flex;
+  align-items: center;
+  margin: 20px 20px 10px 20px;
+  padding: 5px;
+  > p {
+    margin: 8px;
+  }
+}
+#table-container-main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 0.7rem;
+  background-color: white;
+}
+#table-sub-container {
+  overflow-x: auto;
+  max-width: 100%;
+}
+.table {
+  min-width: 100%;
+  white-space: nowrap;
+  > thead {
+    height: 4rem;
+    width: 3rem;
+    font-size: 1rem;
+  }
+  > tbody tr {
+    height: 4rem;
+    width: 3rem;
+    font-size: 0.8rem;
+  }
+}
+
+.row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 15px 30px 15px;
+  > h2 {
+    font-size: 1.5rem;
+  }
+}
+.actions-menu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  align-items: center;
+  text-decoration: none;
+  background-color: rgb(208, 206, 206);
+  list-style: none;
+}
+.action-btn {
+  border: none;
+  background-color: rgb(77, 203, 226);
+  padding: 0 0.5rem 0 0.5rem;
+  border-radius: 0.3rem;
+  color: white;
+}
+#mytable_wrapper .dataTables_length,
+#mytable_wrapper .dataTables_filter {
+  margin: 10px;
+  font-size: 0.9rem;
+}
+/* Modal  */
+#hidden {
+  display: none;
+}
+#business-section {
+  display: none;
+}
+#individual-section {
+  display: none;
+}
